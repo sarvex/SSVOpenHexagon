@@ -14,7 +14,7 @@ jobs:
       LDFLAGS: -L/usr/local/lib
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
       with:
         submodules: recursive
 
