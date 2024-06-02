@@ -25,7 +25,7 @@ jobs:
           mingw-w64-x86_64-openal
         update: true
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
       with:
         submodules: recursive
 
