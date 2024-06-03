@@ -42,7 +42,7 @@ jobs:
         cp build/SSVOpenHexagon build/OHWorkshopUploader _RELEASE
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: OpenHexagon-Linux
         path: _RELEASE
